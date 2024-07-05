@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Printing
-      - run: echo "Hello World"
+        run: echo "Hello World"
       - name: Completed
-      - run: echo "Done"
+        run: echo "Done"
