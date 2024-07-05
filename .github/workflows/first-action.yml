@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Printing
-        run: echo "Hello World"
+        run: |
+             echo "Hello World"
+             echo "Kijiye meeting meeting"
       - name: Completed
         run: echo "Done"
